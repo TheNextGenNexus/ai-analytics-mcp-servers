@@ -1,0 +1,13 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required:
+      - apifyToken
+    properties:
+      apifyToken:
+        type: string
+        description: Your Apify API token. Get one free at https://apify.com
+  commandFunction:
+    |-
+    (config) => ({{ command: 'npx', args: ['tsx', 'src/index.ts'], env: {{ APIFY_TOKEN: config.apifyToken }} }})
