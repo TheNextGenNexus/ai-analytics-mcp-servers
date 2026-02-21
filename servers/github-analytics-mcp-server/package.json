@@ -1,0 +1,39 @@
+{
+  "name": "@nexgendata/github-analytics-mcp-server",
+  "version": "1.0.0",
+  "description": "Get GitHub repository stats, search repos, analyze languages, and compare projects",
+  "type": "module",
+  "bin": {
+    "github-analytics-mcp-server": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "tsx": "^4.7.0",
+    "@types/node": "^20.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "apify",
+    "nexgendata"
+  ],
+  "author": "nexgendata",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheNextGenNexus/github-analytics-mcp-servers"
+  }
+}

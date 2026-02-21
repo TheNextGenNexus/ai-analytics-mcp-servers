@@ -1,0 +1,39 @@
+{
+  "name": "@nexgendata/yahoo-finance-mcp-server",
+  "version": "1.0.0",
+  "description": "Get real-time stock quotes, historical data, and compare stocks via Yahoo Finance",
+  "type": "module",
+  "bin": {
+    "yahoo-finance-mcp-server": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "tsx": "^4.7.0",
+    "@types/node": "^20.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "apify",
+    "nexgendata"
+  ],
+  "author": "nexgendata",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheNextGenNexus/yahoo-finance-mcp-servers"
+  }
+}
