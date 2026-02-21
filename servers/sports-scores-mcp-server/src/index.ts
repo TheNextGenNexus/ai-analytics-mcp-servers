@@ -177,10 +177,18 @@ server.registerTool(
 );
 
 
+// Export for Smithery sandbox scanning
+export function createSandboxServer() {
+  return server;
+}
+
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
   console.error("Sports Scores MCP Server running on stdio");
 }
 
-main().catch(console.error);
+// Only run when executed directly, not when imported by Smithery scanner
+if (process.argv[1]?.includes('index')) {
+  main().catch(console.error);
+}
