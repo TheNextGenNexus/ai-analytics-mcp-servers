@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TheNextGenNexus/github-analytics-mcp-server",
+  "description": "Get GitHub repository stats, search repos, analyze languages, and compare projects",
+  "repository": {
+    "url": "https://github.com/TheNextGenNexus/ai-analytics-mcp-servers",
+    "source": "github",
+    "subfolder": "servers/github-analytics-mcp-server"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@thenextgennexus/github-analytics-mcp-server",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your Apify API token for accessing web scraping actors",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "APIFY_TOKEN"
+        }
+      ]
+    }
+  ]
+}

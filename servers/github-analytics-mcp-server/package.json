@@ -1,6 +1,6 @@
 {
   "name": "@thenextgennexus/github-analytics-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get GitHub repository stats, search repos, analyze languages, and compare projects",
   "type": "module",
   "bin": {
@@ -36,5 +36,5 @@
     "type": "git",
     "url": "https://github.com/TheNextGenNexus/ai-analytics-mcp-servers"
   },
-  "mcpName": "io.github.thenextgennexus/github-analytics-mcp-server"
+  "mcpName": "io.github.TheNextGenNexus/github-analytics-mcp-server"
 }

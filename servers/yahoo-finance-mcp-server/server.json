@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TheNextGenNexus/yahoo-finance-mcp-server",
+  "description": "Get real-time stock quotes, historical data, and compare stocks via Yahoo Finance",
+  "repository": {
+    "url": "https://github.com/TheNextGenNexus/ai-analytics-mcp-servers",
+    "source": "github",
+    "subfolder": "servers/yahoo-finance-mcp-server"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@thenextgennexus/yahoo-finance-mcp-server",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your Apify API token for accessing web scraping actors",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "APIFY_TOKEN"
+        }
+      ]
+    }
+  ]
+}

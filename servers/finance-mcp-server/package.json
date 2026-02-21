@@ -1,6 +1,6 @@
 {
   "name": "@thenextgennexus/finance-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get stock data, screen stocks, track crypto prices, and monitor exchange rates",
   "type": "module",
   "bin": {
@@ -36,5 +36,5 @@
     "type": "git",
     "url": "https://github.com/TheNextGenNexus/ai-analytics-mcp-servers"
   },
-  "mcpName": "io.github.thenextgennexus/finance-mcp-server"
+  "mcpName": "io.github.TheNextGenNexus/finance-mcp-server"
 }

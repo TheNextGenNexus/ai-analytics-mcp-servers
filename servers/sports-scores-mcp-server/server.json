@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TheNextGenNexus/sports-scores-mcp-server",
+  "description": "Get live NBA, NFL, and NHL scores and game data",
+  "repository": {
+    "url": "https://github.com/TheNextGenNexus/ai-analytics-mcp-servers",
+    "source": "github",
+    "subfolder": "servers/sports-scores-mcp-server"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@thenextgennexus/sports-scores-mcp-server",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your Apify API token for accessing web scraping actors",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "APIFY_TOKEN"
+        }
+      ]
+    }
+  ]
+}
