@@ -1,5 +1,5 @@
 {
-  "name": "@nexgendata/finance-mcp-server",
+  "name": "@thenextgennexus/finance-mcp-server",
   "version": "1.0.0",
   "description": "Get stock data, screen stocks, track crypto prices, and monitor exchange rates",
   "type": "module",

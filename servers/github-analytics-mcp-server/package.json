@@ -1,5 +1,5 @@
 {
-  "name": "@nexgendata/github-analytics-mcp-server",
+  "name": "@thenextgennexus/github-analytics-mcp-server",
   "version": "1.0.0",
   "description": "Get GitHub repository stats, search repos, analyze languages, and compare projects",
   "type": "module",

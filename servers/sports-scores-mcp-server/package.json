@@ -1,5 +1,5 @@
 {
-  "name": "@nexgendata/sports-scores-mcp-server",
+  "name": "@thenextgennexus/sports-scores-mcp-server",
   "version": "1.0.0",
   "description": "Get live NBA, NFL, and NHL scores and game data",
   "type": "module",

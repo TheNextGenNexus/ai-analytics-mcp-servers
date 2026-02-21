@@ -1,5 +1,5 @@
 {
-  "name": "@nexgendata/yahoo-finance-mcp-server",
+  "name": "@thenextgennexus/yahoo-finance-mcp-server",
   "version": "1.0.0",
   "description": "Get real-time stock quotes, historical data, and compare stocks via Yahoo Finance",
   "type": "module",
