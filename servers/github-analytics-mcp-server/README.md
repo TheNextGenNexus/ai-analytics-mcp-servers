@@ -1,6 +1,6 @@
 # GitHub Analytics MCP Server
 
-Get GitHub repository stats, search repos, analyze languages, and compare projects — powered by [nexgendata](https://apify.com/nexgendata) on Apify.
+Get GitHub repository stats, search repos, analyze languages, and compare projects — powered by [nexgendata](https://apify.com/nexgendata?fpr=2ayu9b) on Apify.
 
 ## Quick Start
 
@@ -63,7 +63,7 @@ This MCP server acts as a local stdio bridge to the [nexgendata Apify MCP endpoi
 
 ## Links
 
-- [Apify Store](https://apify.com/nexgendata/github-mcp-server)
+- [Apify Store](https://apify.com/nexgendata/github-mcp-server?fpr=2ayu9b)
 - [GitHub Repository](https://github.com/TheNextGenNexus/ai-analytics-mcp-servers)
 - [nexgendata Blog](https://thenextgennexus.com)
 
