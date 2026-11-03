@@ -1,6 +1,6 @@
 # ai-analytics-mcp-servers
 
-MCP servers for financial analytics, stock data, GitHub analytics, and live sports scores — powered by [nexgendata](https://apify.com/nexgendata) on Apify.
+MCP servers for financial analytics, stock data, GitHub analytics, and live sports scores — powered by [nexgendata](https://apify.com/nexgendata?fpr=2ayu9b) on Apify.
 
 ## MCP Servers
 
@@ -51,10 +51,10 @@ Then add it to your Claude Desktop or Cline configuration.
 
 ## About nexgendata
 
-nexgendata provides 64 data tools on the [Apify platform](https://apify.com/nexgendata), including 15 MCP servers for AI agent integration. Our tools cover social media, business data, web intelligence, finance, e-commerce, and more.
+nexgendata provides 64 data tools on the [Apify platform](https://apify.com/nexgendata?fpr=2ayu9b), including 15 MCP servers for AI agent integration. Our tools cover social media, business data, web intelligence, finance, e-commerce, and more.
 
 - **Blog:** [thenextgennexus.com](https://thenextgennexus.com)
-- **Apify Store:** [apify.com/nexgendata](https://apify.com/nexgendata)
+- **Apify Store:** [apify.com/nexgendata](https://apify.com/nexgendata?fpr=2ayu9b)
 - **RapidAPI:** [rapidapi.com/rubymoonshot](https://rapidapi.com/user/rubymoonshot)
 
 ## License
