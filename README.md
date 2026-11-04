@@ -51,7 +51,7 @@ Then add it to your Claude Desktop or Cline configuration.
 
 ## About nexgendata
 
-NexGenData has [495 public data tools in the NexGenData store on Apify](https://apify.com/nexgendata?fpr=2ayu9b), including 41 MCP servers for AI agent integration. Our tools cover social media, business data, web intelligence, finance, e-commerce, and more.
+NexGenData has [470 public data tools in the NexGenData store on Apify](https://apify.com/nexgendata?fpr=2ayu9b), including 41 MCP servers for AI agent integration. Our tools cover social media, business data, web intelligence, finance, e-commerce, and more.
 
 - **Blog:** [thenextgennexus.com](https://thenextgennexus.com)
 - **Apify Store:** [apify.com/nexgendata](https://apify.com/nexgendata?fpr=2ayu9b)
